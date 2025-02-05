@@ -1,4 +1,5 @@
 #include "obs.hxx"
+#include "sbj.hxx"
 
 #include <iostream>
 
