@@ -25,7 +25,8 @@ public:
 
     event& rem (const size_t event_id)
     {
-        std::cout << "Deleting new observer, id:" << event_id << '\n';
+        std::cout << "Deleting new observer, id:" << event_id
+                  << ";&:" << &(followers[event_id]) << '\n';
         followers.erase (event_id);
         return *this;
     }
